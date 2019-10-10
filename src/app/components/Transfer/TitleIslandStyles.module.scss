@@ -1,0 +1,40 @@
+.titleIsland{
+ display:grid;
+  grid-template-columns: 50% 50%;
+  border-bottom: 1px solid #D1D1D1;
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  padding-bottom: 10px;
+  .title{
+    display:flex;
+    flex-direction: column;
+    .fromTo{
+      color:lightgray;
+    }
+  }
+  .buttonUnderBlock{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+        .centerButton{
+          font-family: Roboto,serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 21px;
+          display:flex;
+          justify-content: space-between;
+          align-items: center;
+          align-content: center;
+
+
+        }
+
+  }
+}
